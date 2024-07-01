@@ -12,8 +12,8 @@ public class HelloWorldController{
 	public String helloworld() {
 		return "Hello World";
 	}
-	@GetMapping ("/lista-bdsm") 
-	public String listaBdsm() {
+	@GetMapping ("/lista-bsms") 
+	public String listaBSMs() {
 		return "orientação ao futuro, responsabilidade pessoal, mentalidade de crescimento, persistencia, trabalho em equipe, orientação ao detalhe, proatividade, comunicação";
 	}
 	@GetMapping ("/objetivos")
